@@ -1,0 +1,137 @@
+body{
+      font-family: Roboto, Arial, sans-serif;
+      margin:0;
+    }
+    p {
+      font-size:14px;
+    }
+    .Header {
+      text-align:center;
+      background-color: hsl(0, 0%, 0%);
+      color:white;
+      padding:5px;
+    }
+    .Hero {
+      text-align:center;
+      background-color:rgb(200, 200, 200);
+      padding:40px;
+    }
+    .Navigation-links{
+      font-size:14px;
+    }
+    .cta-btn {
+      background-color: rgb(29, 155, 240);
+      color:white;
+      padding: 10px 20px;
+      display:inline-block;
+      text-decoration: none;
+      border-radius:8px;
+    }
+    .cta-btn:hover {
+      background-color:rgb(37, 146, 218);
+      text-decoration:underline;
+      transition: background-color, font-weight 1.15s;
+      font-weight:500;
+    }
+    .cta-btn:active{
+      cursor:progress;
+    }
+    .features {
+      padding: 100px;
+      background-color: rgb(105, 105, 105);
+    }
+    .features-circle {
+      display:inline-block;
+      text-align: center;
+      border: 0px solid rgb(245, 245, 245);
+      border-radius:100px;
+      margin-left: 190px;
+      margin-bottom:50px;
+      width: 190px;
+      height: 190px;
+      vertical-align:middle;
+      color:hsl(0, 100%, 99%);
+    }
+    .features-circle:hover {
+      box-shadow: 1px 2px 7px rgb(150, 150, 150);
+      transition:0.3s;
+    }
+    .features-box {
+      width:150px;
+      margin:20px auto;
+      border: 0px none;
+      text-align: center;
+      display:inline-block;
+      padding:10px 20px;
+      border-radius:50px;
+    }
+    .features-box:hover {
+      box-shadow: 0px 1px 7px rgb(150, 150, 150) ;
+      transition:0.3s;
+    }
+
+    .features-text {
+      padding: 50px;
+    }
+    .Testimonials-box {
+      background-color: rgb(200, 200, 200);
+      padding:100px 20px;
+    }
+    .Testimonials-box h2{
+      margin-top:0;
+      text-align:center;
+    }
+    .Testimonials-box blockquote{
+      margin:0;
+      font-size:14px;
+    }
+    .Testimonials-box p{
+      font-size:16px;
+      font-weight:500;
+    }
+    .review-box {
+      display:inline-block;
+      width: 400px;
+      margin: 20px;
+      padding: 18px;
+      vertical-align: middle;
+    }
+    .profile-box {
+      display:inline-block;
+      vertical-align:middle;
+      padding:5px;
+    }
+    .profile-pic {
+      width: 70px;
+      height:70px;
+      border-radius:70px;
+
+    }
+    .review-info {
+      display:inline-block;
+      width:300px;
+      vertical-align: middle;
+      margin-left:5px;
+    }
+    .review{
+      width:200px;
+      padding-bottom: 10px;
+      color: rgb(68, 68, 68);
+    }
+    .profile-name{
+      width:300px;
+    }
+    .review-box:hover {
+    box-shadow: 0px 1px 7px rgb(180, 180, 180);
+    padding: 10px 10px;
+    border-radius:70px;
+    background-color:rgb(200, 200, 200);
+    cursor:zoom-in ;
+    transition:0.3s;
+    }
+    .footer {
+      background-color:#000000;
+      padding: 20px;
+      color:#ffffff;
+      text-align:center;
+    }
